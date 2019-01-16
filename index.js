@@ -1,6 +1,6 @@
-  document.getElementById("Titanic").addEventListener("click", function(e) {
-    injectInfo(titanic);
-  });
+document.getElementById("Titanic").addEventListener("click", function(e) {
+  injectInfo(titanic);
+});
 
 document.addEventListener("DOMContentLoaded", (e) => {
   // invoking a function here will make sure it happens on page load
